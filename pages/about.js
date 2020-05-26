@@ -4,7 +4,7 @@ const About = ({ title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={`${title} | About`} description={description}>
-        <h1 className="title">Welcome to this demo blog!</h1>
+        <h1 className="title">Welcome to Testing grounds!</h1>
 
         <p className="description">
           This is a simple blog built with Next, easily deployable on{' '}
@@ -14,7 +14,7 @@ const About = ({ title, description, ...props }) => {
         <p>
           You can check out the{' '}
           <a href="https://github.com/cassidoo/next-netlify-blog-starter">
-            repo here.
+            repo here. Trying this
           </a>{' '}
           If you'd like to build it yourself,{' '}
           <a href="https://url.netlify.com/ByVW0bCF8">
